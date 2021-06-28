@@ -392,6 +392,7 @@ html,body{
       padding: 8px 33px;
       .container{
         display: flex;
+        height: 100%;
         .btn-group{
           display: flex;
           -webkit-box-pack: justify;
@@ -630,6 +631,14 @@ html,body{
   }
   .section-content{
 
+  }
+}
+.article{
+  background:$primary;
+  padding:25px;
+  margin:25px;
+  h2{
+    text-transform: capitalize;
   }
 }
 .card{
@@ -916,6 +925,9 @@ padding: 20px;
     }
 
   }
+  .channel-bar{
+    padding-top: 48px;
+  }
   .section{
     background: $primary;
     border-radius: 4px;
@@ -990,7 +1002,10 @@ padding: 20px;
       columns: auto 2;
     }
   }
-    
+  .article{
+    padding:15px;
+    margin:15px;
+  } 
 }
 .ad-container{
   margin: 12px 0;
