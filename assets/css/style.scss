@@ -542,6 +542,7 @@ html,body{
 }
 /** swiper **/
 .swiper-container{
+  overflow-x: hidden;
   .swiper-wrapper{
     display:flex;
   }
